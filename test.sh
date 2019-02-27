@@ -23,8 +23,10 @@ setUp()
 
 testLab1()
 {
+    # set correct locale
+    LC_ALL=C
     # execute student's solution
-	bash lab1.sh
+    bash lab1.sh
     # calculate md5 hash of results file
     md5_results=($($MD5_SHELL results.*))
     # remove trailing filename and leave MD5 hashsum only:

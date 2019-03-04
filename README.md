@@ -75,12 +75,12 @@ os-course-task1
 ```
 <dnslog>
 <row>
-    <timestamp>Отметка времени, когда поступил запрос</timestamp >
+    <timestamp>Отметка времени, когда поступил запрос</timestamp>
     <client_ip>IP адрес пользователя</client_ip>
     <client_port>Порт пользователя</client_port>
 </row>
 <row>
-    <timestamp>Отметка времени, когда поступил запрос</timestamp >
+    <timestamp>Отметка времени, когда поступил запрос</timestamp>
     <client_ip>IP адрес пользователя</client_ip>
     <client_port>Порт пользователя</client_port>
 </row>

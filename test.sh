@@ -57,7 +57,7 @@ test_TASKID()
     echo "TASKID is "$TASKID
     assertNotEquals "Did you forget to set the TASKID variable?" -1 $TASKID
     assertTrue "TASKID is too small" "[ $TASKID -gt 0 ]"
-    assertTrue "TASKID is too large" "[ $TASKID -lt 20 ]"
+    assertTrue "TASKID is too large" "[ $TASKID -lt 21 ]"
 }
 
 test_VAR_1_case1()

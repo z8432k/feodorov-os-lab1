@@ -48,6 +48,7 @@ setUp()
     TASKID=-1
     VAR_1=-1
     VAR_2=-1
+    LC_ALL=C
 }
 
 test_TASKID()

@@ -10,7 +10,7 @@ case "${unameOut}" in
 esac
 echo "The script is run on "${machine}" machine"
 
-if [[ "${machine}" -eq 'Mac' ]]; then
+if [[ "${machine}" == 'Mac' ]]; then
     MD5_SHELL="md5 -r "
 else
     MD5_SHELL="md5sum "

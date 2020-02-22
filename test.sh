@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 unameOut="$(uname -s)"
 case "${unameOut}" in
@@ -10,7 +10,7 @@ case "${unameOut}" in
 esac
 echo "The script is run on "${machine}" machine"
 
-if [ "${machine}" == 'Mac' ]; then
+if [[ "${machine}" -eq 'Mac' ]]; then
     MD5_SHELL="md5 -r "
 else
     MD5_SHELL="md5sum "

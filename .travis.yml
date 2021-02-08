@@ -1,4 +1,5 @@
 language: shell
 
 script:
+    - tar -xjf dns-tunneling.log.tar.bz2
     - bash test.sh

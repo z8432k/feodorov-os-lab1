@@ -1,4 +1,7 @@
 os-course-task1
+
+[![Build Status](https://www.travis-ci.com/suai-os-2021/os-task1-unixs.svg?token=4CiSFZXVGEzq35bG9CwK&branch=master)](https://www.travis-ci.com/suai-os-2021/os-task1-unixs)
+
 # Операционные системы. Лабораторная работа №1: работа с текстовыми потоками в командном интерпретаторе Bash
 
 ## Цель работы
